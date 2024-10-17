@@ -4,8 +4,8 @@ import scipy
 from scipy.stats import norm
 from sklearn.model_selection import KFold
 from joblib import Parallel, delayed
-from tick_base import FeaturesBinarizer
-from tick_base import CoxRegression
+#from tick_base import FeaturesBinarizer
+#from tick_base import CoxRegression
 from lifelines.utils import concordance_index
 import statsmodels.api as sm
 import pylab as pl
